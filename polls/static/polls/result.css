@@ -1,0 +1,16 @@
+.result-header {
+    color: #66bb11;
+}
+
+li, a {
+    color: #66bb11;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #66bb11;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}

@@ -1,0 +1,52 @@
+.question-detail-header {
+    color: #66bb11;
+}
+
+.question-detail-legend {
+    color: #66bb11;
+}
+
+.choice-label, .choice-radio {
+    cursor: pointer;
+    color: #66bb11;
+}
+
+.choice-radio:checked + * {
+    color: #66bb11;
+}
+
+.choice-radio:checked + *::before {
+    background: radial-gradient(#66bb11 0%, #66bb11 40%, transparent 50%, transparent);
+    border-color: #66bb11;
+}
+
+.submit-btn {
+    cursor: pointer;
+    width: 60px;
+    margin-top: 10px;
+    background: #66bb11;
+    color: white;
+    border: 1px solid #88c924;
+}
+
+.error-msg {
+    color: red;
+}
+
+.choice-radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #88c924;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.choice-radio:checked {
+    border: 6px solid #66bb11;
+}

@@ -1,0 +1,16 @@
+body {
+    background: white url("images/bg.jpg") no-repeat;
+}
+
+li a {
+    color: #efe9e9;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #efe9e9;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
