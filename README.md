@@ -12,8 +12,6 @@
 
 `python -m pip install -r requirements.txt`
 
-`cd mysite`
-
 ## Migrate database
 
 `python manage.py makemigrations`
